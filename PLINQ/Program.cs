@@ -20,10 +20,11 @@
 
             var newArray=array.AsParallel().Where(Islem);
 
-            newArray.ToList().ForEach(x =>
+            newArray.ForAll(x =>
             {
                 Console.WriteLine(x);
-            });
+            }); 
+
 
         }
     }
