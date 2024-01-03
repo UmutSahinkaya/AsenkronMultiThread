@@ -5,9 +5,13 @@ VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFromApp", "TaskFromApp\TaskFromApp.csproj", "{55131CA1-B6D6-4977-81C6-B56260E22F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp", "TaskConsoleApp\TaskConsoleApp.csproj", "{56134408-A4C3-4DB3-9D29-9FC792CBDC6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskConsoleApp", "TaskConsoleApp\TaskConsoleApp.csproj", "{56134408-A4C3-4DB3-9D29-9FC792CBDC6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEachParallel", "ForEachParallel\ForEachParallel.csproj", "{B3243A86-C2CF-49E4-B3B9-533A97C9A289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForEachParallel", "ForEachParallel\ForEachParallel.csproj", "{B3243A86-C2CF-49E4-B3B9-533A97C9A289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForParallel", "ForParallel\ForParallel.csproj", "{18AA1784-3E34-4C52-859F-E9013DB41728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelForForEachCancellationFormApp", "ParallelForForEachCancellationFormApp\ParallelForForEachCancellationFormApp.csproj", "{3566A75E-58B3-4A9E-ACC1-4A03313FF460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{B3243A86-C2CF-49E4-B3B9-533A97C9A289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3243A86-C2CF-49E4-B3B9-533A97C9A289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3243A86-C2CF-49E4-B3B9-533A97C9A289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AA1784-3E34-4C52-859F-E9013DB41728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AA1784-3E34-4C52-859F-E9013DB41728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AA1784-3E34-4C52-859F-E9013DB41728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AA1784-3E34-4C52-859F-E9013DB41728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3566A75E-58B3-4A9E-ACC1-4A03313FF460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3566A75E-58B3-4A9E-ACC1-4A03313FF460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3566A75E-58B3-4A9E-ACC1-4A03313FF460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3566A75E-58B3-4A9E-ACC1-4A03313FF460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
