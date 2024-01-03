@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForParallel", "ForParallel\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelForForEachCancellationFormApp", "ParallelForForEachCancellationFormApp\ParallelForForEachCancellationFormApp.csproj", "{3566A75E-58B3-4A9E-ACC1-4A03313FF460}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQ", "PLINQ\PLINQ.csproj", "{4DB51D7C-B1ED-4F14-8340-0E0E92080992}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3566A75E-58B3-4A9E-ACC1-4A03313FF460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3566A75E-58B3-4A9E-ACC1-4A03313FF460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3566A75E-58B3-4A9E-ACC1-4A03313FF460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB51D7C-B1ED-4F14-8340-0E0E92080992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB51D7C-B1ED-4F14-8340-0E0E92080992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB51D7C-B1ED-4F14-8340-0E0E92080992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB51D7C-B1ED-4F14-8340-0E0E92080992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
